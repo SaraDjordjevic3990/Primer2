@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>AD251 Vežba 14.</p>
+<button onclick="myFunction()">Klikni me</button>
+<p id="demo"></p>
+<script>
+function myFunction()
+{
+var x;
+var r=confirm("Pretisnite dugme!");
+if (r==true)
+{
+x="Pretisli ste OK!";
+}
+else
+{
+x="Pretisli ste Cancel!";
+}
+document.getElementById("demo").innerHTML=x;
+}
+</script>
+</body>
+</html>
